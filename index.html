@@ -3,6 +3,7 @@
     <title>bgin.io</title>
     <link rel=icon href=favicon.png sizes="32x32" type="image/png">
     <meta name="theme-color" content="#FFB74D">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
     <style>
         .logo {
@@ -19,6 +20,15 @@
             width: 100%;
             color: #999;
             margin-top: 30px;
+        }
+        @media (max-width: 800px) {
+            .logo {
+                width: 80%;
+                margin-top: 30%;
+            }
+            .text, .email {
+                font-size: 30px;
+            }
         }
         .email {
             margin-top: 10px;
