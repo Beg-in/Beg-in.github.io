@@ -66,7 +66,7 @@
         .email {
             margin-top: 0px;
         }
-        .email a {
+        .email a, .footer a {
             color: #fff;
             text-decoration: none;
         }
@@ -78,7 +78,7 @@
             0% { opacity: 0.0; filter: alpha(opacity=0); -webkit-transform: translateY(20px); transform: translateY(20px);}
             100% { opacity: 1.0; filter: alpha(opacity=100); -webkit-transform: translateY(0px); transform: translateY(0px);}
         }
-        .flex>div{
+        .flex>div, .footer {
             opacity: 0;
             filter: alpha(opacity=0);
         }
@@ -105,6 +105,21 @@
                     animation: slide-in 1.0s forwards;
             -webkit-animation-delay: 2.8s;
                     animation-delay: 2.8s;
+        }
+        .footer {
+            font-size: 20px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            margin-bottom: 75px;
+            text-decoration: underline;
+            -webkit-animation: slide-in 1.0s forwards;
+            -webkit-animation-delay: 0s;
+            -webkit-animation: slide-in 1.0s forwards;
+                    animation: slide-in 1.0s forwards;
+            -webkit-animation-delay: 4s;
+                    animation-delay: 4s;
         }
     </style>
     <body>
@@ -134,6 +149,9 @@
                     </script>
                 </div>
             </div>
+        </div>
+        <div class="text footer">
+            <a href="https://github.com/Beg-in">Check us out on Github</a>
         </div>
     </body>
 </html>
