@@ -113,13 +113,20 @@
             left: 0;
             width: 100%;
             margin-bottom: 75px;
-            text-decoration: underline;
             -webkit-animation: slide-in 1.0s forwards;
             -webkit-animation-delay: 0s;
             -webkit-animation: slide-in 1.0s forwards;
                     animation: slide-in 1.0s forwards;
             -webkit-animation-delay: 4s;
                     animation-delay: 4s;
+        }
+        .footer svg {
+            width: 50px;
+            height: 50px;
+        }
+        .footer .link-text {
+            text-decoration: underline;
+            margin-bottom: 10px;
         }
     </style>
     <body>
@@ -151,7 +158,10 @@
             </div>
         </div>
         <div class="text footer">
-            <a href="https://github.com/Beg-in">Check us out on Github</a>
+            <a href="https://github.com/Beg-in" target="_blank">
+                <div class="link-text">Check us out on GitHub</div>
+                <svg viewBox="0 0 119 116" xmlns="http://www.w3.org/2000/svg" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M59 .003C26.42.003 0 26.42 0 59.01c0 26.07 16.905 48.184 40.352 55.986 2.952.543 4.028-1.28 4.028-2.844 0-1.4-.05-5.11-.08-10.033-16.412 3.563-19.875-7.912-19.875-7.912-2.684-6.818-6.553-8.632-6.553-8.632-5.357-3.66.406-3.586.406-3.586 5.922.416 9.037 6.08 9.037 6.08 5.264 9.017 13.812 6.413 17.174 4.902.535-3.81 2.06-6.41 3.744-7.885-13.102-1.49-26.877-6.553-26.877-29.163 0-6.44 2.3-11.71 6.074-15.833-.607-1.492-2.632-7.494.58-15.615 0 0 4.953-1.587 16.225 6.05 4.705-1.312 9.755-1.964 14.772-1.99 5.013.026 10.06.678 14.772 1.99 11.264-7.637 16.208-6.05 16.208-6.05 3.22 8.12 1.196 14.123.59 15.616 3.782 4.123 6.064 9.393 6.064 15.834 0 22.668-13.797 27.656-26.94 29.116 2.117 1.822 4.004 5.422 4.004 10.924 0 7.89-.072 14.254-.072 16.188 0 1.58 1.065 3.416 4.057 2.84 23.43-7.82 40.32-29.92 40.32-55.982C118.01 26.42 91.59.003 59 .003z" /></svg>
+            </a>
         </div>
     </body>
 </html>
